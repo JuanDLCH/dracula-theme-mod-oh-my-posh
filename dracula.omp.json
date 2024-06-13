@@ -35,7 +35,7 @@
           "style": "powerline",
           "template": "{{ if .Venv }} (venv: {{ .Venv }}){{ end }} ",
           "type": "python"
-        }
+        },
         {
           "background": "#ffb86c",
           "foreground": "#f8f8f2",
