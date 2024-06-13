@@ -33,7 +33,7 @@
               "home_enabled": true
           },
           "style": "powerline",
-          "template": " \ue235 {{ if .Venv }}((venv: ){{ .Venv }}){{ end }} ",
+          "template": " \ue235 {{ if .Venv }}(venv:{{ .Venv }}){{ end }} ",
           "type": "python"
         }
         {
