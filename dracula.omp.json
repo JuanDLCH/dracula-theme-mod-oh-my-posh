@@ -32,7 +32,7 @@
               "virtualenv_icon": "\ue73c",
               "display_mode": "always"    
             },
-            "template": " {{ if .venv }}{{ .venv }}{{ end }} ",
+            "template": " {{ if (.venv) }}{{ (.venv) }}{{ end }} ",
             "type": "python"
           },
           {
