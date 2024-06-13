@@ -24,15 +24,12 @@
           "type": "path"
         },
         {
-          "background": "#50fa7b",
-          "foreground": "#282a36",
-          "powerline_symbol": "\ue0b0",
+          "type": "python",
           "style": "powerline",
-          "properties": {
-            "display_mode": "always"
-          },
-          "template": "{{ if .Venv }} ({{ .Venv }}){{ end }} ",
-          "type": "python"
+          "powerline_symbol": "",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "template": "  {{ .Full }} "
         },
         {
           "background": "#ffb86c",
