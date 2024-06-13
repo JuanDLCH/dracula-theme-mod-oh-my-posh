@@ -24,8 +24,8 @@
           "type": "path"
         },
         {
-          "background": "#FFDE57",
-          "foreground": "#111111",
+          "background": "#50fa7b",
+          "foreground": "#282a36",
           "powerline_symbol": "\ue0b0",
           "properties": {
               "display_mode": "environment",
@@ -33,7 +33,7 @@
               "home_enabled": true
           },
           "style": "powerline",
-          "template": " \ue235 {{ if .Venv }}({{ .Venv }}){{ end }} ",
+          "template": " \ue235 {{ if .Venv }}((venv: ){{ .Venv }}){{ end }} ",
           "type": "python"
         }
         {
