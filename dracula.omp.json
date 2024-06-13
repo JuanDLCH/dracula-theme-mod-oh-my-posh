@@ -24,13 +24,18 @@
           "type": "path"
         },
         {
-          "type": "python",
+          "background": "#FFDE57",
+          "foreground": "#111111",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+              "display_mode": "environment",
+              "fetch_virtual_env": true,
+              "home_enabled": true
+          },
           "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#100e23",
-          "background": "#906cff",
-          "template": "  {{ .Full }} "
-        },
+          "template": " \ue235 {{ if .Venv }}({{ .Venv }}){{ end }} ",
+          "type": "python"
+        }
         {
           "background": "#ffb86c",
           "foreground": "#f8f8f2",
