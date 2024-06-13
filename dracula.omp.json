@@ -5,19 +5,6 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#50fa7b",
-          "foreground": "#282a36",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
-              "display_mode": "environment",
-              "fetch_virtual_env": true,
-              "home_enabled": true
-          },
-          "style": "powerline",
-          "template": "{{ if .Venv }} ({{ .Venv }}){{ end }} ",
-          "type": "python"
-        },
-        {
           "background": "#6272a4",
           "foreground": "#f8f8f2",
           "leading_diamond": "\ue0b6",
